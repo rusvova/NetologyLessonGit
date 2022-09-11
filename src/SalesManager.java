@@ -1,5 +1,5 @@
 public class SalesManager {
-    protected int[] sales;
+    protected static int[] sales;
 
     public SalesManager(int[] sales) {
         this.sales = sales;
