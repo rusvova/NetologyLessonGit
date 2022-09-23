@@ -5,6 +5,7 @@ public class Main {
         SalesManager salesManager = new SalesManager(sales);
         int max = salesManager.max();
         System.out.println(max);
+        System.out.println(salesManager.getAvarageSales());
     }
 
 
